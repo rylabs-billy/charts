@@ -106,6 +106,10 @@ ghostBlogTitle: User's Blog
 ## ref: https://github.com/bitnami/bitnami-docker-ghost#environment-variables
 allowEmptyPassword: true
 
+## Number of replicas to deploy
+##
+replicaCount: 1
+
 ## SMTP mail delivery configuration
 ## ref: https://github.com/bitnami/bitnami-docker-ghost/#smtp-configuration
 ##

@@ -29,6 +29,12 @@
       "form": true,
       "description": "Hostname used to generate application URLs"
     },
+    "replicaCount": {
+      "type": "integer",
+      "form": true,
+      "title": "Number of replicas",
+      "description": "Number of replicas to deploy"
+    },
     "persistence": {
       "type": "object",
       "properties": {
